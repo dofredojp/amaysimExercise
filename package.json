@@ -1,0 +1,22 @@
+{
+  "name": "amaysimexercise",
+  "version": "1.0.0",
+  "main": "shoppingCart.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js",
+    "startcli": "node src/shoppingCartApp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
